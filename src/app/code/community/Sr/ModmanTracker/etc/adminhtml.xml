@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <modman_tracker translate="title" module="modman_tracker">
+            <title>modman</title>
+            <sort_order>500</sort_order>
+            <children>
+                <modules translate="title" module="modman_tracker">
+                    <title>Check Modules</title>
+                    <action>adminhtml/modman_modules</action>
+                    <sort_order>10</sort_order>
+                </modules>
+            </children>
+        </modman_tracker>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <modman_tracker translate="title" module="modman_tracker">
+                        <title>modman</title>
+                            <children>
+                                <modules translate="title" module="modman_tracker">
+                                    <title>Check Modules</title>
+                                </modules>
+                            </children>
+                    </modman_tracker>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

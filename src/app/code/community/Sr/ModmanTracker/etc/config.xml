@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Sr_ModmanTracker>
+            <version>0.0.1</version>
+        </Sr_ModmanTracker>
+    </modules>
+    <global>
+        <blocks>
+            <modman_tracker>
+                <class>Sr_ModmanTracker_Block</class>
+            </modman_tracker>
+        </blocks>
+        <helpers>
+            <modman_tracker>
+                <class>Sr_ModmanTracker_Helper</class>
+            </modman_tracker>
+        </helpers>
+    </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <modman_tracker before="Mage_Adminhtml">Sr_ModmanTracker_Adminhtml</modman_tracker>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+    <adminhtml>
+        <layout>
+            <updates>
+                <modman_tracker>
+                    <file>sr_modman_tracker.xml</file>
+                </modman_tracker>
+            </updates>
+        </layout>
+    </adminhtml>
+</config>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Sr_ModmanTracker>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Sr_ModmanTracker>
+    </modules>
+</config>

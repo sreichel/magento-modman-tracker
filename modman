@@ -1,0 +1,3 @@
+src/app/code/community/Sr/ModmanTracker                                 app/code/community/Sr/ModmanTracker
+src/app/design/adminhtml/default/default/layout/sr_modman_tracker.xml   app/design/adminhtml/default/default/layout/sr_modman_tracker.xml
+src/app/etc/modules/Sr_ModmanTracker.xml                                app/etc/modules/Sr_ModmanTracker.xml
